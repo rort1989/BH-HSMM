@@ -1,6 +1,6 @@
-## Hierarchical Dynamic Model (HDM)
+## Bayesian Hierarchical Hidden Semi-Markov Model (BH-HSMM)
 
-Hierarchical dynamic model (HDM) is a probabilistic dynamic model which explicitly models spatial and temporal variations in the dynamic data. The temporal variation is handled in two aspects. First, we incorporate a probabilistic duration mechanism to allow flexible speed at each phase of an activity. Second, the transitions among different phases of an activity are modeled by transition probabilities among different hidden states. The spatial variation is modeled by probability distribution on observations in each individual frame. To further improve the capability of handling intra-class variation, we extend the model following the Bayesian framework, by allowing the parameters to vary across data, yielding a hierarchical structure.
+BH-HSMM is a probabilistic dynamic model which explicitly models spatial and temporal variations in the dynamic data. The temporal variation is handled in two aspects. First, we incorporate a probabilistic duration mechanism to allow flexible speed at each phase of an activity. Second, the transitions among different phases of an activity are modeled by transition probabilities among different hidden states. The spatial variation is modeled by probability distribution on observations in each individual frame. To further improve the capability of handling intra-class variation, we extend the model following the Bayesian framework, by allowing the parameters to vary across data, yielding a hierarchical structure.
 
 ## How to Use
 
